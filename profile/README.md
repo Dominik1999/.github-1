@@ -28,7 +28,7 @@ This repository stores all the code for Polygon Miden. Everything is open source
 | [Examples](https://github.com/0xPolygonMiden/examples)        | Examples of using the Miden VM and Miden assembly. |
 
 ## Status
-The [public testnet](https://docs.polygon.technology/miden/miden-base/introduction/get-started/create-account-use-faucet/) is up and running. You can interact with the Miden node using the Miden client. Currently, there are only predefined smart contracts and node scripts. As soon as there is the Miden Rust compiler, builders can start writing their own contracts.
+The [public testnet](https://docs.polygon.technology/miden/miden-base/introduction/get-started/create-account-use-faucet/) is up and running. Users can interact with the network using the Miden client. Currently, there are only predefined smart contracts and node scripts. As soon as the Miden Rust compiler is available, builders can start writing their own contracts.
 
 You can also use the Miden VM v0.9 locally and on the Miden [playground](https://0xpolygonmiden.github.io/examples/). For more detailed information, check out the Miden VM repository or our [Miden VM docs](https://wiki.polygon.technology/docs/miden/intro/main).
     
@@ -39,9 +39,9 @@ If you want to use parts of Polygon Miden - like the Miden VM or AirScript - ple
 ### Key features of Polygon Miden
 1. **Client-side proving** where users can locally execute transactions and create proofs of them on their own. 
 2. **Parallel transaction execution** where causally independent transactions can be processed in parallel.
-3. **Privacy** which includes the ability to engage in private transactions as well as have privacy-preserving smart contracts.
-4. **Support for composable smart contracts** via safe but Turing-complete language. This is needed to support safer wallets, DeFi, DAOs, and many other cool use cases.
-5. **Native support for multiple assets** where the environment itself ensures asset safety and allows fee payments in multiple assets, etc.
+3. **Privacy** which includes engaging in private transactions and executing privacy-preserving smart contracts.
+4. **Support for composable smart contracts** via safe but Turing-complete language. This is needed to support safer wallets, DeFi, DAOs, and other cool use cases.
+5. **Native support for multiple assets** where the environment ensures asset safety, allows fee payments in multiple assets, etc.
 
     
 ## License
